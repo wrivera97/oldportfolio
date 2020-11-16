@@ -128,7 +128,10 @@
                             <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required="" placeholder="Hi, How are you?" rows="5"></textarea><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div id="success"></div>
-                        <div class="form-group"><button class="btn btn-info btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                        <!--<div class="form-group"><button class="btn btn-info btn-xl"  id="sendMessageButton" type="submit">Send</button></div>-->
+                        <button type="button" class="btn btn-info btn-xl" data-toggle="modal" data-target="#exampleModal">
+                            Send
+                          </button>
                     </form>
                 </div>
             </div>
@@ -282,6 +285,21 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal not avaliable -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body bg-dark text-center bg-modal-error ">
+            <i class="fas fa-bug fa-5x" style="color: red;"> 
+            <h3 class="text-danger text-uppercase" > Opps Coming soon, please come back later</h3> </i>
+            <div class="text-lg-right">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

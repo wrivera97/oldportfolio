@@ -15,6 +15,13 @@ overflow:hidden;
 .bg-modal-error{
 background-image: url(../img/other/errorsad.jpg);
 background-size: cover;
+}
+.btn-lan{
+    background-color: transparent; 
+    color: white;
+   
 
-
+}
+.btn-lan:focus{
+    background-color: wheat;
 }

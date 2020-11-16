@@ -1,0 +1,14 @@
+.bg-img{
+background-image: url(/assets/img/other/technology-785742_1920.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow:hidden;
+}
+.faicon-center{
+    text-align:center;
+    background-color:transparent;
+}
+/*.faicon-center:hover{
+
+}*/
+

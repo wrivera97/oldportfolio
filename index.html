@@ -130,7 +130,7 @@
                 <div class="col-sm-8 mx-auto">
                     <form id="contactForm" name="sentMessage" action="/root/contacme.php" novalidate="novalidate" method="POST">
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name"  required placeholder="Name:"><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" name="name" required placeholder="Name:"><small class="form-text text-danger help-block"></small></div>
                         </div>
 
                         <div class="control-group">
@@ -138,18 +138,15 @@
                         </div>
 
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" required placeholder="Phone Number:"><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" name="phone" required placeholder="Phone Number:"><small class="form-text text-danger help-block"></small></div>
                         </div>
 
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required placeholder="Message:" rows="4"></textarea><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required name="message" placeholder="message:" rows="4"></textarea><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div id="success"></div>
                         <div class="form-group">
-                            <button class="g-recaptcha btn btn-secondary btn-xl" 
-                            data-sitekey="6LfjKeQZAAAAAMUwAdW83uGi8bOgqBljYqOJPEbl" 
-                            data-callback='onSubmit' 
-                            data-action='submit' disabled>Send</button>                         
+                            <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="Enviar" />                       
                         </div>                                               
                     </form>
                 </div>
@@ -255,31 +252,31 @@
                                 <h2 class="text-uppercase mb-0">Revolucion en la red <a href="#" class="text-light"><i class="fas fa-external-link-alt"></i></a></h2>
                                 <hr class="star-light mb-5">
                                 <div id="revolucionenred" class="carousel slide" data-ride="carousel">
-                                    <!-- Indicators -->
-                                    <ul class="carousel-indicators">
-                                      <li data-target="#revolucionenred" data-slide-to="0" class="active"></li>
-                                      <li data-target="#revolucionenred" data-slide-to="1"></li>
-                                      <li data-target="#revolucionenred" data-slide-to="2"></li>
-                                    </ul>
-                                    
                                     <!-- The slideshow -->
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
-                                        <img src="/assets/img/portfolio/lrevolucion.png" alt="Los Angeles">
+                                        <img src="/assets/img/portfolio/lrevolucion.png" alt="lrevolucion">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>asd</h5>
+                                            <p>asdasd</p>
+                                          </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="/assets/img/portfolio/serverevolucion.png" alt="serverevolucion">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>...</h5>
                                             <p>...</p>
                                           </div>
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="/assets/img/portfolio/serverevolucion.png" alt="Chicago">
+                                        <img src="/assets/img/portfolio/rubuntu.png" alt="rubuntu">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>...</h5>
                                             <p>...</p>
                                           </div>
                                       </div>
                                       <div class="carousel-item">
-                                        <img src="/assets/img/portfolio/rpage.png" alt="New York">
+                                        <img src="/assets/img/portfolio/rpage.png" alt="rpage">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>...</h5>
                                             <p>...</p>

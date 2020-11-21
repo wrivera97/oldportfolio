@@ -1,7 +1,3 @@
-function onSubmit(token) {
-    document.getElementById("contactForm").submit();
-  }
-
   (function() {
     'use strict';
     window.addEventListener('load', function() {

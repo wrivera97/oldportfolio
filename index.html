@@ -130,19 +130,41 @@
                     <form id="contactForm" class="validationdata" name="sentMessage" action="https://formspree.io/f/xoqplzbd" novalidate="novalidate" method="POST">
                         
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label for="name">Name</label><input class="form-control" type="text" id="name" name="name"  placeholder="Name:" required><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label for="name">Name</label>
+                                <input class="form-control" type="text" id="name" name="name"  placeholder="Name:" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid name.
+                                    </div>
                         </div>
 
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="email" name="email"  placeholder="Email Address:" required><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Email Address</label>
+                                    <input class="form-control" type="email" id="email" name="email"  placeholder="Email Address:" required>
+                                        <div class="invalid-feedback">
+                                        Please provide a valid email.
+                                        </div>
+                            </div>
                         </div>
 
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2" ><label>Phone Number</label><input class="form-control" type="tel" id="phone" name="phone"  placeholder="Phone Number:" pattern="^[9|8|7|6]\d{8}$" required><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2" >
+                                <label>Phone Number</label>
+                                    <input class="form-control" type="tel" id="phone" name="phone"  placeholder="Phone Number:" pattern="^[1|2|3|4|5|6|7|8|9|0]\d{9}$" required>
+                                        <div class="invalid-feedback">
+                                        Please provide a valid phone number.
+                                        </div>
+                             </div>           
                         </div>
 
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message"  name="message" placeholder="message:" rows="4" required></textarea><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-5 pb-2">
+                                <textarea class="form-control" id="message"  name="message" placeholder="message:" rows="4" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Please write a short message below.
+                                    </div>
+                            </div>
                         </div>
                         <div id="success"></div>
                         <div class="form-group">

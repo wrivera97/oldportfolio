@@ -1,5 +1,5 @@
 .bg-img{
-background-image: url(/assets/img/other/technology-785742_1920.jpg);
+background-image: url(/assets/img/images/backgroundkeyboard.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 overflow:hidden;
@@ -13,7 +13,7 @@ overflow:hidden;
 }*/
 
 .bg-modal-error{
-background-image: url(../img/other/errorsad.jpg);
+background-image: url(../img/images/errorsad.jpg);
 background-size: cover;
 }
 .btn-lan{

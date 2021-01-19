@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/mystyle.css">
+    <link rel="stylesheet/less" type="text/css" href="assets/test.scss">
         <style>
         /* Make the image fully responsive */
         .carousel-inner img {
@@ -42,36 +43,35 @@
     <!--img test background gradient-->
     <header class="masthead text-white bg-img bg-dark text-center">
         <div class="container" ><img class="img-fluid d-block mx-auto mb-5" src="assets/img/images/profile.png" width="200" height="200">
-            <h1>Joel Rivera</h1>
+            <h1 >Joel Rivera</h1>
             <hr class="star-light"><!--color dark background-->
-            <h2 class="font-weight-light mb-0 text text-uppercase">Full stack developer | Electronic technician </h2>
+            <h2 class="font-weight-light mb-0 text text-uppercase anim">Full stack developer | Electronic technician </h2>
         </div>
     </header>
-    <section id="portfolio" class="portfolio bg-secondary">
-       
-        <div class="container">
+    <section id="portfolio" class="portfolio-block photography bg-secondary">
+        <div class="container" style="
+        padding-bottom: 100px; ">
             <h2 class="text-uppercase text-center text-white">Portfolio</h2>
-            <hr class="star-light mb-5"> </hr>
-          <!--  <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolioAle">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100 bg-warning ">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
-                        </div><img class="img-fluid rounded" src="assets/img/portfolio/cabin.png"></a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#revolucionenlared">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100 bg-success">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
-                        </div><img class="img-fluid rounded" src="/assets/img/portfolio/lrevolucion.png"></a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#academic_notes_module">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
-                        </div><img class="img-fluid rounded" src="assets/img/portfolio/circus.png"></a>
-                </div>
-            </div>-->
+            <hr class="star-light mb-5"></hr>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolioAle">
+                    <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                        <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
+                    </div><img class="img-fluid image rounded" src="assets/img/portfolio/cake.png"></a>
+                </div>  
+                
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#revolucionenlared">
+                    <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                        <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
+                    </div><img class="img-fluid image rounded" src="assets/img/portfolio/lrevolucion.png"></a>
+                </div>  
+
+                <div class="col-md-6 col-lg-4 item zoom-on-hover"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#academic_notes_module">
+                    <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                        <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-info fa-3x"></i></div>
+                    </div><img class="img-fluid image rounded" src="assets/img/portfolio/cabin.png"></a>
+                </div>                
+            </div>
         </div>
     </section>
     <section id="about" class="bg-dark text-white mb-0">

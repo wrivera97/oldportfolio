@@ -8,10 +8,6 @@ overflow:hidden;
     text-align:center;
     background-color:transparent;
 }
-/*.faicon-center:hover{
-
-}*/
-
 .bg-modal-error{
 background-image: url(../img/images/errorsad.jpg);
 background-size: cover;
@@ -19,11 +15,7 @@ background-size: cover;
 .btn-lan{
     background-color: transparent; 
     color: white;
-   
-
 }
 .btn-lan:focus{
     background-color: wheat;
 }
-
-  
